@@ -10,6 +10,14 @@ permeability **label** as scientific inputs. `Index`, `Source`, and split files
 are bookkeeping fields used to construct reproducible parent-child pairs.
 Residue-level Uni-Mol and physicochemical features are generated locally.
 
+## Online Demo
+
+Try CycDelta directly on Bohrium (no installation required):
+
+https://www.bohrium.com/apps/cycdelta
+
+The app provides an interactive interface for delta-permeability prediction.
+
 ## Highlights
 
 - First delta-permeability predictor developed specifically for cyclic peptides.
