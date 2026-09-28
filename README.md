@@ -28,6 +28,8 @@ The app provides an interactive interface for delta-permeability prediction.
   suggestions for improving predicted permeability.
 
 ## Installation
+> Prefer not to install anything? Use the hosted app:
+> https://www.bohrium.com/apps/cycdelta
 
 ```bash
 conda env create -f env/environment_integrated.yml
