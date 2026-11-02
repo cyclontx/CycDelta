@@ -1,0 +1,39 @@
+name: permeability-gradient
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  # Python 3.10 is supported by the D-MPNN stack and unimol-tools.
+  - python=3.10
+  - pip
+
+  # Keep CUDA 11.8 for compatibility with the trained D-MPNN environment.
+  - pytorch=2.4.1
+  - pytorch-cuda=11.8
+
+  # unimol-tools 0.1.3.post1 requires NumPy <2 and pandas <2.
+  # RDKit is installed from pip below so the build matches unimol2.
+  - numpy>=1.22.4,<2
+  - pandas>=1.5,<2
+  - scipy>=1.13
+  - scikit-learn>=1.5
+  - matplotlib>=3.9
+  - pillow>=10.3
+
+  # Model, checkpoint, spreadsheet, and plotting dependencies.
+  - pytorch-lightning>=2.1,<3
+  - torchmetrics>=1.3,<2
+  - h5py
+  - openpyxl
+  - pyyaml
+
+  - pip:
+      # The current GNN only uses torch_geometric.utils.scatter, so no
+      # separately compiled torch-scatter wheel is required.
+      # These two pins match the unimol2 environment that reproduces the
+      # released Uni-Mol tensors. RDKit 2026.3.4 is the PyPI spelling of the
+      # 2026.03.4 release.
+      - torch-geometric==2.5.3
+      - rdkit==2026.3.4
+      - unimol-tools==0.1.3.post1

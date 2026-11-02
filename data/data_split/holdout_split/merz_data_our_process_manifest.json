@@ -1,0 +1,1691 @@
+{
+  "format_version": 1,
+  "dataset_name": "merz_data",
+  "source_file": "merz_data.xlsx",
+  "mapping_method": "exact_achiral_structure",
+  "default_method": "PAMPA",
+  "records": [
+    {
+      "index": 0,
+      "input_smiles": "C[C@@H]1NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CNC(=O)CCSCC2=NC(=CC=C2)CSCCNC1=O",
+      "canonical_smiles": "C[C@@H]1NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CNC(=O)CCSCc2cccc(n2)CSCCNC1=O",
+      "sequence": "AXX",
+      "helm_like": "PEPTIDE1{A.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "C[C@H](N)C(=O)O",
+          "amino_acid": "A",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "NCCSCc1cccc(CSCCC(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 1,
+      "input_smiles": "C[C@@H]1NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CSCC2=CC=CC(=N2)CSCCNC(=O)C2=CC=C(C=C2)CNC1=O",
+      "canonical_smiles": "C[C@@H]1NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSCc2cccc(n2)CSCCNC(=O)c2ccc(cc2)CNC1=O",
+      "sequence": "AXX",
+      "helm_like": "PEPTIDE1{A.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "C[C@H](N)C(=O)O",
+          "amino_acid": "A",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "NCc1ccc(C(=O)O)cc1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 2,
+      "input_smiles": "C[C@@H]1NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CSCC2=NC(=CC=C2)CSCCNC(=O)[C@H]2CCCN(C2)C1=O",
+      "canonical_smiles": "C[C@@H]1NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSCc2cccc(n2)CSCCNC(=O)[C@H]2CCCN(C2)C1=O",
+      "sequence": "AXX",
+      "helm_like": "PEPTIDE1{A.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "C[C@H](N)C(=O)O",
+          "amino_acid": "A",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "O=C(O)[C@H]1CCCNC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 3,
+      "input_smiles": "ClC1=CC=C(C(N[C@H](C(N[C@H](C(N2[C@@H](C3)CCC2)=O)CC4=CC=CC=C4)=O)CC/C=C/CCCNC3=O)=O)S1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CC/C=C/CCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCC/C=C/CC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 4,
+      "input_smiles": "ClC1=CC=C(C(N[C@H](C(N[C@H](C(N2[C@@H](C3)CCC2)=O)CC4=CC=CC=C4)=O)CC/C=C/CCNC3=O)=O)S1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CC/C=C/CCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCC/C=C/CC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 5,
+      "input_smiles": "ClC1=CC=C(C(N[C@H](C(N[C@H](C(N2[C@@H](C3)CCC2)=O)CC4=CC=CC=C4)=O)CCC/C=C/CCCCNC3=O)=O)S1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CCC/C=C/CCCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCCC/C=C/CCC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 6,
+      "input_smiles": "ClC1=CC=C(S1)C(N[C@@H](C/C=C/CCCN2)C(N[C@@H](CC3=CC=CC=C3)C(N4[C@H](CCC4)CC2=O)=O)=O)=O",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)C/C=C/CCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCC/C=C/C[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 7,
+      "input_smiles": "ClC1=CC=C(S1)C(N[C@@H](CC/C=C/CCCCN2)C(N[C@@H](CC3=CC=CC=C3)C(N4[C@H](CCC4)CC2=O)=O)=O)=O",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CC/C=C/CCCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCCC/C=C/CC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 8,
+      "input_smiles": "ClC1=CC=C(S1)C(N[C@@H](CCC/C=C\\CCCN2)C(N[C@@H](CC3=CC=CC=C3)C(N4[C@H](CCC4)CC2=O)=O)=O)=O",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CCC/C=C\\CCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCC/C=C\\CCC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 9,
+      "input_smiles": "CN1CCC(=O)NCCSCCS(=O)(=O)CCSC[C@H](NC(=O)C2=CC=C(Cl)S2)C(=O)N[C@@H](CC2=CC=CC=C2)C1=O",
+      "canonical_smiles": "CN1CCC(=O)NCCSCCS(=O)(=O)CCSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)N[C@@H](Cc2ccccc2)C1=O",
+      "sequence": "XXF",
+      "helm_like": "PEPTIDE1{X.X.F}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "CNCCC(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "NCCSCCS(=O)(=O)CCSC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 10,
+      "input_smiles": "NC(=O)NCCC[C@@H]1NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CNC(=O)CCSCC2=NC(=CC=C2)CSCCNC1=O",
+      "canonical_smiles": "NC(=O)NCCC[C@@H]1NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CNC(=O)CCSCc2cccc(n2)CSCCNC1=O",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NC(=O)NCCC[C@H](N)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "NCCSCc1cccc(CSCCC(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 11,
+      "input_smiles": "O=C(N[C@H]1CSCC2=CC=CC(=N2)CSCCNC(=O)C2=CC=C(C=C2)CNC(=O)[C@H](CO)NC1=O)C1=CC=C(Cl)S1",
+      "canonical_smiles": "O=C1NCCSCc2cccc(n2)CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)N[C@@H](CO)C(=O)NCc2ccc1cc2",
+      "sequence": "XSX",
+      "helm_like": "PEPTIDE1{X.S.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](CO)C(=O)O",
+          "amino_acid": "S",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NCc1ccc(C(=O)O)cc1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 12,
+      "input_smiles": "O=C(N[C@H]1CSCC2=NC(=CC=C2)CSCCNC(=O)[C@H](CC2=CC=CC=N2)NC(=O)C2(NC1=O)CCCC2)C1=CC=C(Cl)S1",
+      "canonical_smiles": "O=C(N[C@H]1CSCc2cccc(n2)CSCCNC(=O)[C@H](Cc2ccccn2)NC(=O)C2(CCCC2)NC1=O)c1ccc(Cl)s1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NC1(C(=O)O)CCCC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccn1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 13,
+      "input_smiles": "O=C(N[C@H]1CSCC2=NC(=CC=C2)CSCCNC(=O)[C@H](CC2=CNC=N2)NC(=O)C2(NC1=O)CCCC2)C1=CC=C(Cl)S1",
+      "canonical_smiles": "O=C(N[C@H]1CSCc2cccc(n2)CSCCNC(=O)[C@H](Cc2c[nH]cn2)NC(=O)C2(CCCC2)NC1=O)c1ccc(Cl)s1",
+      "sequence": "XHX",
+      "helm_like": "PEPTIDE1{X.H.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NC1(C(=O)O)CCCC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1c[nH]cn1)C(=O)O",
+          "amino_acid": "H",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 14,
+      "input_smiles": "O=C(N[C@H]1CSCCS(=O)(=O)CCSCCNC(=O)C2(CNC(=O)[C@H](CC3=CC=CC=C3)NC1=O)CC2)C1=CC=C(Cl)S1",
+      "canonical_smiles": "O=C(N[C@H]1CSCCS(=O)(=O)CCSCCNC(=O)C2(CC2)CNC(=O)[C@H](Cc2ccccc2)NC1=O)c1ccc(Cl)s1",
+      "sequence": "XXF",
+      "helm_like": "PEPTIDE1{X.X.F}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCC1(C(=O)O)CC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "NCCSCCS(=O)(=O)CCSC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 15,
+      "input_smiles": "O=C(NCCCC/C=C/CC[C@@H](C(N[C@H]1CC2=CC=CC=C2)=O)NC(C3=C(F)C=C(Cl)C=C3)=O)C[C@@H](CCC4)N4C1=O",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)cc2F)CC/C=C/CCCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCCC/C=C/CC[C@H](NC(=O)c1ccc(Cl)cc1F)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 16,
+      "input_smiles": "O=C(NCCCC/C=C/CC[C@@H](C(N[C@H]1CC2=CC=CC=C2)=O)NC(C3=CC=C(Cl)C=C3)=O)C[C@@H](CCC4)N4C1=O",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)cc2)CC/C=C/CCCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCCC/C=C/CC[C@H](NC(=O)c1ccc(Cl)cc1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 17,
+      "input_smiles": "O=C1C[C@H]2CC[C@@H](CC2)NC(=O)CCSCC2=CC=C(C=C2)CSCCNC(=O)[C@H](CNC(=O)C2=CC=C(Cl)S2)N1",
+      "canonical_smiles": "O=C1C[C@H]2CC[C@@H](CC2)NC(=O)CCSCc2ccc(cc2)CSCCNC(=O)[C@H](CNC(=O)c2ccc(Cl)s2)N1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1ccc(CSCCC(=O)O)cc1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@H]1CC[C@H](CC(=O)O)CC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](CNC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 18,
+      "input_smiles": "O=C1C[C@H]2CC[C@@H](CC2)NC(=O)CCSCC2=NC(=CC=C2)CSCCNC(=O)[C@H](CNC(=O)C2=CC=C(Cl)S2)N1",
+      "canonical_smiles": "O=C1C[C@H]2CC[C@@H](CC2)NC(=O)CCSCc2cccc(n2)CSCCNC(=O)[C@H](CNC(=O)c2ccc(Cl)s2)N1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSCCC(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@H]1CC[C@H](CC(=O)O)CC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](CNC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 19,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)C/C=C/CCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)C/C=C/CCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCC/C=C/C[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 20,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CCCSC/C=C/CSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CCCSC/C=C/CSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSC/C=C/CSCCC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 21,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CCCSCC2=NC(=CC=C2)CSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CCCSCc2cccc(n2)CSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSCCC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 22,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CCSC/C=C/CSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CCSC/C=C/CSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSC/C=C/CSCC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 23,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CCSCC2=CC=CC(=N2)CSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CCSCc2cccc(n2)CSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSCC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 24,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CSC/C=C/CSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSC/C=C/CSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSC/C=C/CSC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 25,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CSCC2=NC(=CC=C2)CSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSCc2cccc(n2)CSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 26,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CSCCS(=O)(=O)CCSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSCCS(=O)(=O)CCSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCCS(=O)(=O)CCSC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 27,
+      "input_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](CC2=CC=CC=N2)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CSCCS(=O)(=O)CCSCCN1",
+      "canonical_smiles": "O=C1C[C@H]2CCCN2C(=O)[C@H](Cc2ccccn2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSCCS(=O)(=O)CCSCCN1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCCS(=O)(=O)CCSC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccn1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 28,
+      "input_smiles": "O=C1CC2CCN(C(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@@H](NC(=O)C3=CC=C(Cl)S3)CSCC3=NC(=CC=C3)CSCCN1)CC2",
+      "canonical_smiles": "O=C1CC2CCN(CC2)C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSCc2cccc(n2)CSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)CC1CCNCC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 29,
+      "input_smiles": "O=C1CC2CCN(C(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@@H](NC(=O)C3=CC=C(Cl)S3)CSCCS(=O)(=O)CCSCCN1)CC2",
+      "canonical_smiles": "O=C1CC2CCN(CC2)C(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CSCCS(=O)(=O)CCSCCN1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCCS(=O)(=O)CCSC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)CC1CCNCC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 30,
+      "input_smiles": "O=C1CCSC/C=C/CSCCNC(=O)[C@H](CNC(=O)C2=CC=C(Cl)S2)NC(=O)[C@H](CC2=CC=CC=N2)N1",
+      "canonical_smiles": "O=C1CCSC/C=C/CSCCNC(=O)[C@H](CNC(=O)c2ccc(Cl)s2)NC(=O)[C@H](Cc2ccccn2)N1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSC/C=C/CSCCC(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccn1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](CNC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 31,
+      "input_smiles": "O=C1CCSCC2=CC=C(C=C2)CSC/C=C/CNC(=O)[C@H]2CCCN(C2)C(=O)[C@H](CC2=CC=C(Cl)C=C2)N1",
+      "canonical_smiles": "O=C1CCSCc2ccc(cc2)CSC/C=C/CNC(=O)[C@H]2CCCN(C2)C(=O)[C@H](Cc2ccc(Cl)cc2)N1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NC/C=C/CSCc1ccc(CSCCC(=O)O)cc1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccc(Cl)cc1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)[C@H]1CCCNC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 32,
+      "input_smiles": "O=C1CCSCC2=CC=C(C=C2)CSCC2CN(C(=O)[C@H]3CCCN(C3)C(=O)[C@H](CNC(=O)C3=CC=C(Cl)S3)N1)C2",
+      "canonical_smiles": "O=C1CCSCc2ccc(cc2)CSCC2CN(C2)C(=O)[C@H]2CCCN(C2)C(=O)[C@H](CNC(=O)c2ccc(Cl)s2)N1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "N[C@@H](CNC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "O=C(O)[C@H]1CCCNC1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)CCSCc1ccc(CSCC2CNC2)cc1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 33,
+      "input_smiles": "O=C1CCSCC2=CC=C(C=C2)CSCCNC(=O)[C@H](CNC(=O)C2=CC=C(Cl)S2)NC(=O)[C@H](CC2=CC=CC=N2)N1",
+      "canonical_smiles": "O=C1CCSCc2ccc(cc2)CSCCNC(=O)[C@H](CNC(=O)c2ccc(Cl)s2)NC(=O)[C@H](Cc2ccccn2)N1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1ccc(CSCCC(=O)O)cc1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccn1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](CNC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 34,
+      "input_smiles": "O=C1CCSCC2=CC=CC(=N2)CSC2CCN(C(=O)CCNC(=O)[C@H](CNC(=O)C3=CC=C(Cl)S3)N1)CC2",
+      "canonical_smiles": "O=C1CCSCc2cccc(n2)CSC2CCN(CC2)C(=O)CCNC(=O)[C@H](CNC(=O)c2ccc(Cl)s2)N1",
+      "sequence": "XXX",
+      "helm_like": "PEPTIDE1{X.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCC(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "O=C(O)CCSCc1cccc(CSC2CCNCC2)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](CNC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 35,
+      "input_smiles": "O=C1CCSCC2=CC=CC(=N2)CSCCNC(=O)C2CN(C(=O)C3=CC=C(Cl)S3)CCN2C(=O)[C@H](CO)N1",
+      "canonical_smiles": "O=C1CCSCc2cccc(n2)CSCCNC(=O)C2CN(C(=O)c3ccc(Cl)s3)CCN2C(=O)[C@H](CO)N1",
+      "sequence": "XSX",
+      "helm_like": "PEPTIDE1{X.S.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSCCC(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](CO)C(=O)O",
+          "amino_acid": "S",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C1CN(C(=O)c2ccc(Cl)s2)CCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 36,
+      "input_smiles": "O=C1CCSCC2=NC(=CC=C2)CSCCNC(=O)[C@H](C(C)C)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CN1",
+      "canonical_smiles": "CC(C)[C@@H]1NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CNC(=O)CCSCc2cccc(n2)CSCCNC1=O",
+      "sequence": "VXX",
+      "helm_like": "PEPTIDE1{D-V.X.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "CC(C)[C@H](N)C(=O)O",
+          "amino_acid": "V",
+          "similarity": 1.0,
+          "is_natural": 0,
+          "is_D": 1,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "NCCSCc1cccc(CSCCC(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 37,
+      "input_smiles": "O=C1CCSCC2=NC(=CC=C2)CSCCNC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)C2=CC=C(Cl)S2)CN1",
+      "canonical_smiles": "O=C1CCSCc2cccc(n2)CSCCNC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)c2ccc(Cl)s2)CN1",
+      "sequence": "XXS",
+      "helm_like": "PEPTIDE1{X.X.S}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSCCC(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "NC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "N[C@@H](CO)C(=O)O",
+          "amino_acid": "S",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 38,
+      "input_smiles": "O=C1CSCCC[C@H](NC(=O)C2=CC=C(Cl)S2)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N2CCC[C@@H]2CC(=O)NCCSC1",
+      "canonical_smiles": "O=C1CSCCC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)N[C@@H](Cc2ccccc2)C(=O)N2CCC[C@@H]2CC(=O)NCCSC1",
+      "sequence": "XFX",
+      "helm_like": "PEPTIDE1{X.F.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCC(=O)CSCCC[C@H](NC(=O)c1ccc(Cl)s1)C(=O)O",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+          "amino_acid": "F",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C[C@H]1CCCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 39,
+      "input_smiles": "O=C1NCCSCC2=CC=CC(=N2)CSCCC(=O)N2CCC[C@H]2C(=O)N2CCN(C(=O)C3=CC=C(Cl)S3)CC12",
+      "canonical_smiles": "O=C1NCCSCc2cccc(n2)CSCCC(=O)N2CCC[C@H]2C(=O)N2CCN(C(=O)c3ccc(Cl)s3)CC12",
+      "sequence": "XPX",
+      "helm_like": "PEPTIDE1{X.P.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSCCC(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "O=C(O)[C@@H]1CCCN1",
+          "amino_acid": "P",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "O=C(O)C1CN(C(=O)c2ccc(Cl)s2)CCN1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    },
+    {
+      "index": 40,
+      "input_smiles": "O=C1NCCSCC2=NC(=CC=C2)CSC[C@H](NC(=O)C2=CC=C(Cl)S2)C(=O)N[C@@H](CO)C(=O)NCC2=CC1=CC=C2",
+      "canonical_smiles": "O=C1NCCSCc2cccc(n2)CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)N[C@@H](CO)C(=O)NCc2cccc1c2",
+      "sequence": "XSX",
+      "helm_like": "PEPTIDE1{X.S.X}$PEPTIDE1,PEPTIDE1,1:R1-3:R2$$$",
+      "cyclized_pair": [
+        0,
+        2
+      ],
+      "residues": [
+        {
+          "position": 1,
+          "smiles": "NCCSCc1cccc(CSC[C@H](NC(=O)c2ccc(Cl)s2)C(=O)O)n1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 2,
+          "smiles": "N[C@@H](CO)C(=O)O",
+          "amino_acid": "S",
+          "similarity": 1.0,
+          "is_natural": 1,
+          "is_D": 0,
+          "is_methylated": 0
+        },
+        {
+          "position": 3,
+          "smiles": "NCc1cccc(C(=O)O)c1",
+          "amino_acid": "X",
+          "similarity": 0.0,
+          "is_natural": 0,
+          "is_D": 0,
+          "is_methylated": 0
+        }
+      ],
+      "num_residues": 3
+    }
+  ],
+  "errors": []
+}
